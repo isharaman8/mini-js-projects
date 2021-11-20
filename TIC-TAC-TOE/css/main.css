@@ -1,0 +1,30 @@
+.container:nth-child(1) > div > button {
+	border: 1px solid black;
+	font-size: 40px;
+	text-align: center;
+	line-height: 100px;
+	height: 100px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+.container:nth-child(1) {
+	/* border: 1px solid black; */
+	margin-top: 5%;
+	width: fit-content !important;
+}
+
+#ticTacToe {
+	color: rgb(31, 31, 31);
+	text-align: center;
+	margin: 20px auto 10px auto;
+}
+#ticTacToe + p {
+	text-align: center;
+	font-size: 20px;
+	color: indigo;
+}
+#modalButton {
+	display: none;
+}
