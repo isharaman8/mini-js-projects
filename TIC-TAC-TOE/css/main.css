@@ -13,6 +13,10 @@
 	/* border: 1px solid black; */
 	margin-top: 5%;
 	width: fit-content !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 #ticTacToe {
