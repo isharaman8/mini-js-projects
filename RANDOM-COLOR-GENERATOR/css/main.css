@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: "Roboto", sans-serif;
+	color: rgb(29, 29, 29);
+}
+#navbar {
+	/* border: 1px solid black; */
+	padding: 20px 0;
+	text-align: center;
+	background-color: rgb(221, 193, 174);
+	position: fixed;
+	text-shadow: 0 2px 2px #646464;
+	top: 0;
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+}
+#buttonDiv {
+	width: 100%;
+	margin-top: 20%;
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: center;
+	height: fit-content;
+}
+
+#generateRandomColor {
+	padding: 20px 30px;
+	font-size: 25px;
+	border-radius: 10px;
+	border: 1.5px solid rgb(94, 94, 94);
+	background-color: rgb(59, 122, 117);
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.9) 0px 5px 15px;
+}
+#generateRandomColor:hover {
+	cursor: pointer;
+}
+
+#generateRandomColor:active {
+	box-shadow: rgba(255, 255, 255, 0.9) 0px 5px 15px;
+}
