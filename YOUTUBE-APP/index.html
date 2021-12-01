@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="connected.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+		/>
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fyoutube%2Fyoutube_PNG102354.png&f=1&nofb=1"
+		/>
+		<title>YouTube</title>
+	</head>
+	<body>
+		<div id="navbar">
+			<div id="navSearchDiv">
+				<img
+					src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fyoutube%2Fyoutube_PNG102354.png&f=1&nofb=1"
+				/>
+				<span id="inputButton">
+					<input type="text" id="navSearch" placeholder="Search" />
+					<button onclick="searchVideos()" id="search">
+						<i class="material-icons">search</i>
+					</button>
+					<div id="searchInputDiv"></div>
+				</span>
+			</div>
+			<hr />
+			<div id="categories">
+				<button id="all">all</button>
+				<button id="crypto">crypto</button>
+				<button id="blockchain">blockchain</button>
+				<button id="programming">programming</button>
+				<button id="AI">artifical intelligence</button>
+				<button id="freeCodeCamp">Free Code Camp</button>
+				<button id="EthicalHacking">Ethical Hacking</button>
+				<button id="masaiSchool">Masai School</button>
+			</div>
+			<hr />
+		</div>
+		<main>
+			<div id="container"></div>
+		</main>
+	</body>
+</html>
+<script src="connected.js"></script>
+<!-- oninput="debouncing(searchVideos, 1000)" -->
